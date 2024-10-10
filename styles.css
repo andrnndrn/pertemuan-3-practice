@@ -1,0 +1,264 @@
+@import url(font.css);
+
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+.nav-container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav,
+ul.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+ul.nav-list a {
+  color: #000000;
+  font-weight: 400;
+}
+
+ul.nav-list a:hover {
+  text-decoration: underline;
+  
+}
+
+header {
+  justify-content: space-between;
+  padding: 1rem 0;
+  top: 0;
+  z-index: 100;
+  background-color: rgba(255, 255, 255, 0.94);
+  text-decoration: none;
+}
+
+ul.nav-list {
+  list-style: none;
+  gap: 2rem;
+  align-items: center;
+  font-family: "Poppins-Medium", sans-serif;
+}
+
+.work {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 7.5rem;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  padding-right: 12rem;
+  background-color: #f8f8f8;
+}
+
+.text {
+  display: block;
+  padding: 5rem 0;
+}
+
+.text h1 {
+  font-size: 4rem;
+  font-family: "Poppins-SemiBold", sans-serif;
+  margin-bottom: 1rem;
+  color: #414141;
+  line-height: 70px;
+}
+
+.text p {
+  padding-top: 55px;
+  font-size: 15px;
+  font-family: "Poppins-Regular", sans-serif;
+  color: #8f8f8f;
+}
+
+.what-we-do {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 7.5rem;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.text1 {
+  display: block;
+  padding-top: 9px;
+}
+.what-we-do h2 {
+  font-size: 2.5rem;
+  font-family: "Poppins-SemiBold", sans-serif;
+  margin-bottom: 1rem;
+  color: #414141;
+  line-height: 70px;
+}
+
+.what-we-do h3 {
+  font-size: 1.1rem;
+  font-family: "Poppins-SemiBold", sans-serif;
+  color: #414141;
+  padding-bottom: 10px;
+}
+
+.what-we-do p {
+  font-size: 13px;
+  font-family: "Poppins-Regular", sans-serif;
+  color: #8f8f8f;
+  margin-bottom: 20px;
+}
+
+.our-customers {
+  display: block;
+  padding: 0 7.5rem;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.text2,
+.text2 h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "Poppins-SemiBold", sans-serif;
+  margin-bottom: 1rem;
+  color: #414141;
+  line-height: 50px;
+}
+
+.customers {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+}
+
+.join-our-team {
+  display: flex;
+  justify-content: center;
+  padding: 0 7.5rem;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.combine {
+  padding-right: 116px;
+}
+.combine img {
+  padding-top: 15.9px;
+  height: 131px;
+}
+
+.combine h2 {
+  text-align: left;
+  font-size: 2.5rem;
+  font-family: "Poppins-SemiBold", sans-serif;
+  padding-bottom: 1rem;
+  color: #414141;
+  line-height: 50px;
+}
+
+.combine1 {
+  padding-top: 30px;
+}
+
+.combine1 p {
+  font-size: 15px;
+  font-family: "Poppins-Medium", sans-serif;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.combine1 button {
+  background-color: #414141;
+  color: white;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 15px;
+  padding: 10px 55px;
+  cursor: pointer;
+}
+
+.information {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  font-family: "Poppins-SemiBold", sans-serif;
+  justify-content: space-around;
+}
+
+.container-location h2 {
+  text-align: center;
+}
+
+.location {
+    background-color: white;
+    padding: 10px 60px 10px 20px;
+    position: relative;
+    top: -30px;
+    left: -90px;
+}
+
+.location p:nth-of-type(1) {
+    font-size: 25px;
+}
+
+.location p:nth-of-type(2) {
+    font-size: 12px;
+}
+
+.map {
+  background-image: url(assets/images/Screenshot.png);
+  background-size: cover;
+  background-position: center;
+  padding: 50px 110px 30px;
+}
+
+.company,
+.social-media {
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.company li,
+.contact-us li {
+    list-style: none;
+  
+}
+
+.company li a,
+.contact-us li a {
+    color: #9f9f9f;
+}
+
+.social-media h2,
+.about h2,
+.container-location h2 {
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+.social-media {
+  padding-top: 5px;
+}
+
+.contact-us {
+    padding-top: 3px;
+}
+footer {
+    border-top: 3px solid #efefef;
+    font-family: "Poppins-SemiBold", sans-serif;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+}
